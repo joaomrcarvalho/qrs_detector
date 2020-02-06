@@ -131,7 +131,7 @@ The Offline QRS Detector requires initialization with a path to the ECG measurem
 Below is example code showing how to run the offline version of the QRS Detector module:
 
 ```
-from QRSDetectorOnline import QRSDetectorOnline
+from QRSDetectorOffline import QRSDetectorOffline
 
 qrs_detector = QRSDetectorOffline(ecg_data_path="ecg_data/ecg_data_1.csv", verbose=True, log_data=True, plot_data=True, show_plot=False)
 ```
